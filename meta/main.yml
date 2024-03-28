@@ -1,17 +1,20 @@
+---
 galaxy_info:
-  author: Miguel Caballer
+  role_name: nfs
+  author: j1ngk3
   description: NFS server/client
-  company:  INDIGO-DataCloud
   license: Apache
-  min_ansible_version: 1.8
+  min_ansible_version: 2.10
   platforms:
-  - name: EL
-    versions:
-    - 6
-    - 7  
-  - name: Ubuntu
-    versions:
-    - trusty
+    - name: Fedora
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - bookworm
+    - name: Ubuntu
+      versions:
+        - jammy
   galaxy_tags:
     - nfs
     - system
