@@ -1,6 +1,6 @@
 # Ansible Role: NFS
 
-[![CI](https://github.com/j1ngk3/ansible-role-nfs/workflows/CI/badge.svg?event=push)](https://github.com/j1ngk3/ansible-role-nfs/actions?query=workflow%3ACI)
+[![CI](https://github.com/j1ngk3/ansible-role-nfs/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/j1ngk3/ansible-role-nfs/actions?query=workflow%3ACI)
 
 Install NFS server/client.
 
